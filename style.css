@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    -webkit-touch-callout: none; 
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -moz-user-drag: none; 
+    -ms-user-drag: none;
+}
+header{
+    margin-top: 20px;
+}
+.logo a{
+    color: rgba(0, 95, 163, 1);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+}
+.log{
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+}
+.num{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    font-family: "Lato", sans-serif;
+    gap: 185px;
+}
+.up-t{
+    display: flex;
+    gap: 20px;
+}
+.up-text{
+    display: flex;
+    gap: 10px;
+}
+.down-t{
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    display: flex;
+    gap: 72px;
+    margin-top: 15px;
+}
+.down-t a{
+    color: black;
+    text-decoration: none;
+}
+.slider{
+    
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url('img/9c2ccdf22d8709499ca5ca680239de56.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    gap: 330px;
+    transition: transform 1s ease-in-out;
+}
+.sbp{
+    color: white;
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    padding-top: 180px;
+}
+.mar div button{
+    cursor: pointer;
+    margin-top: 80px;
+    border: none;
+    background-color: none;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0, 95, 163, 1);
+    color: white;
+}
+.elip{
+    margin-top: 120px;
+    display: flex;
+    gap: 40px;
+    
+}
+.elip img{
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+}
+.but{
+    margin-top: 480px;
+    display: flex;
+}
+.but button{
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    opacity: 60%;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+.but button:hover{
+    transition: 0.3s ease;
+    opacity: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+    padding-left: 60px;
+    background-color: rgba(235, 235, 235, 1);
+    padding-bottom: 140px;
+}
+.main-t{
+    font-size: 24px;
+    color: rgba(189, 189, 189, 1);
+}
+.main-t2{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.img-bg{
+    cursor: pointer;
+    background-image: url('img/Rectangle\ 2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 360px;
+}
+.img-bg-gp{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 24px;
+}
+.img-bg div{
+    margin-top: 280px;
+}
+.onas{
+    margin-top: 140px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.onas-t{
+    font-family: "Merriweather", serif;
+}
+.onas-s{
+    display: flex;
+    margin-bottom: 140px;
+    gap: 30px;
+}
+.boxes{
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+}
+.box{
+    background-color: rgba(235, 235, 235, 1);
+    height: 255px;
+    width: 255px;
+}
+.box-pad{
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.boxes-2{
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.box:hover{
+    background-color: rgba(0, 95, 163, 1);
+    color: white;
+    transition: 0.3s ease;
+}
+.box-a a{
+    color: rgba(0, 95, 163, 1);
+}
+.box:hover .box-a a{
+    color: white;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(235, 235, 235, 1);
+    padding-bottom: 100px;
+    margin-bottom: 140px;
+}
+.work{
+    font-family: "Merriweather", serif;
+}
+.cl-img{
+    display: flex;
+    gap: 30px;
+    
+}
+.cl-slider{
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+    align-items: center;
+}
+.but-2 button{
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    opacity: 60%;
+    background-color: transparent;
+    border: none;
+    background-color: #005ea1;
+}
+.but-2 button:hover{
+    transition: 0.3s ease;
+    opacity: 100%;
+}
+.but-2{
+    display: flex;
+}
+.otz{
+    display: flex;
+    justify-content: center;
+}
+.otz-t{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+}
+.otz-lor{
+    background-color: rgba(235, 235, 235, 1);
+    font-size: 18px;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 1110px;
+    height: 320px;
+    margin-top: 80px;
+}
+.hh{
+    align-items: center;
+    display: flex;
+}
+.otz-slider{
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+.fot-s{
+    background-image: url('img/9c2ccdf22d8709499ca5ca680239de56.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 120px;
+}
+.fot-t{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 60px;
+}
+input{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 21px;
+    padding-top: 15px;
+}
+.in input{
+    padding-bottom: 80px;
+    width: 540px;
+}
+.fot-b{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.fot-b button{
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    background-color: rgba(0, 95, 163, 1);
+    color: white;
+    font-size: 18px;
+}
+.img-2 img{
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+}
+.imgcont img{
+    width: 255px;
+    height: 130px;
+}
+.img-log-pas img{
+    width: 80px;
+    height: 80px;
+}
